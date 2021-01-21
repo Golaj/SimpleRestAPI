@@ -51,12 +51,6 @@
 						<goals>
 							<goal>repackage</goal>
 						</goals>
-						<configuration>
-							<classifier>spring-boot</classifier>
-							<mainClass>
-								com.example.SimpleRestAPI.executable.ExecutableMavenJar
-							</mainClass>
-						</configuration>
 					</execution>
 				</executions>
 			</plugin>
